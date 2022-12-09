@@ -94,6 +94,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "rollup -c",
+    "rollup": "rollup -c",
     "lint": "eslint src/*.tsx --quiet --fix",
     "test": "jest",
     "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info"
